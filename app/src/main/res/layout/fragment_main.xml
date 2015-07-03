@@ -1,0 +1,18 @@
+<RelativeLayout android:id="@+id/offers_fragment_id"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ViewStub
+        android:id="@+id/stub_import"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/panel_import"
+        android:layout="@layout/error_message"/>
+
+</RelativeLayout>
